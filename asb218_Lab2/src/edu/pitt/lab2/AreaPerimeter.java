@@ -12,7 +12,7 @@ public class AreaPerimeter
 		
 		final double PI = 3.14159; // Declaring pi as a constant
 		double p = 2*PI*r;
-		double a = PI*(Math.pow(r,r)); // Calculated the perimeter, p, and area, a, based off of inputed variable, r
+		double a = PI*(r*r); // Calculated the perimeter, p, and area, a, based off of inputed variable, r
 		
 		double rMult = r*100;
 		int rRound = (int)Math.round(rMult);
